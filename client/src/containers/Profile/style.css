@@ -1,0 +1,53 @@
+.ProfileWrapper {
+  /* background-color: #eee; */
+  text-align: center;
+  margin-top: 60px;
+  color: rgba(0,0,0,0.48);
+}
+.ProfileTitle {
+  font-weight: 300;
+  font-size: 1.8em;
+  color: rgba(0,0,0,0.7);
+}
+
+.ProfileTotal {
+  margin-top: 50px;
+}
+.ProfileCompleted {
+  margin-top: 30px;
+}
+.ProfileIncompleted {
+  margin-top: 30px;
+}
+
+.ProfileH {
+  font-weight: 200;
+}
+.ProfileP {
+  font-weight: 100;
+}
+
+.ProfileGoBack {
+  margin: 10px auto;
+  margin-top: 70px;
+  padding: 20px 30px;
+  color: white;
+  background-color: #867ede;
+  width: 200px;
+  border-radius: 10px;
+}
+.ProfileGoBack:hover{
+  cursor: pointer;
+}
+
+.ProfileLogout {
+  margin: 20px auto;
+  padding: 20px 30px;
+  color: white;
+  background-color: #ccc;
+  width: 200px;
+  border-radius: 10px;
+}
+.ProfileLogout:hover{
+  cursor: pointer;
+}

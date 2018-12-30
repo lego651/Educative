@@ -1,0 +1,24 @@
+.todoWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 12px;
+  background-color: #e1f2ea;
+}
+
+.left {
+  padding: 2px 5px;
+}
+
+.todoContent {
+  padding: 2px 5px;
+  white-space: nowrap;
+}
+
+.right {
+  position: relative;
+  right: 0;
+  padding: 2px 5px;
+}
