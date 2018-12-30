@@ -1,7 +1,10 @@
-word2vec 
+word2vec
 
-Glove 
+Glove
 
-TF-IDF 
+TF-IDF
 
 t-SNE -> V * 2 output??
+
+
+# Add Markdown branch code
