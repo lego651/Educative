@@ -6,6 +6,7 @@ import Tasks from '../pages/Tasks'
 import About from '../pages/About'
 import LoginPage from '../pages/LoginPage'
 import ProfilePage from '../pages/ProfilePage'
+import CollectionPage from '../pages/CollectionPage'
 import Test from '../pages/Test'
 import EnsureLoggedInContainer from '../containers/EnsureLoggedInContainer'
 
@@ -21,7 +22,7 @@ export const RouteMap = () => {
 
           <Route exact path="/about" component={About}/>
           <Route exact path="/login" component={LoginPage}/>
-
+          <Route exact path="/collection" component={CollectionPage}/>
 
           <EnsureLoggedInContainer>
             <Route path="/test" component={Test}/>
