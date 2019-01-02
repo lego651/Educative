@@ -1,0 +1,22 @@
+.CollectionSummaryWrapper {
+  /* background-color: yellow; */
+}
+
+.CollectionSummaryLeftImage {
+  width: 100%;
+  height: 140px;
+  border-radius: 5px;
+}
+  .CollectionSummaryLeftImage img {
+    /* width: 100%; */
+    height: 140px;
+    object-fit: fill;
+    border-radius: 5px;
+  }
+
+.CollectionSummaryLeftName {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Avenir;
+  line-height: 1.2em;
+}

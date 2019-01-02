@@ -2,7 +2,9 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
 
-// import './style.css'
+import CollectionSummary from '../../containers/CollectionSummary'
+import CollectionContent from '../../containers/CollectionContent'
+import './style.css'
 
 class CollectionPage extends React.Component {
   constructor(props){
@@ -10,8 +12,11 @@ class CollectionPage extends React.Component {
   }
   render() {
     return(
-      <div className="row CollectionPageWrapper">
-        Collection Page
+      <div className="CollectionPageWrapper">
+        <div className="col-sm-8 offset-sm-2 col-xs-12">
+          <CollectionSummary />
+          <CollectionContent />
+        </div>
       </div>
     )
   }
