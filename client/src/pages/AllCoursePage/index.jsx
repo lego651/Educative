@@ -14,7 +14,6 @@ class AllCoursePage extends React.Component {
       <div className="AllCoursePageWrapper">
         <div className="col-sm-8 offset-sm-2 col-xs-12">
           <AllCourse />
-
         </div>
       </div>
     )

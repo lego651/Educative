@@ -17,10 +17,15 @@ import { createStore, compose, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import thunkMiddleware from 'redux-thunk'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 
 import App from './components/App'
 import rootReducer from './reducers'
 import { RouteMap } from './router/routeMap'
+
+library.add(faIgloo)
 
 const store = createStore(
   rootReducer,

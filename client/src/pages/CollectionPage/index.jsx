@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import CollectionSummary from '../../containers/CollectionSummary'
 import CollectionContent from '../../containers/CollectionContent'
+import CollectionLectureList from '../../containers/CollectionLectureList'
 import './style.css'
 
 class CollectionPage extends React.Component {
@@ -16,6 +17,7 @@ class CollectionPage extends React.Component {
         <div className="col-sm-8 offset-sm-2 col-xs-12">
           <CollectionSummary />
           <CollectionContent />
+          <CollectionLectureList />
         </div>
       </div>
     )

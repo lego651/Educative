@@ -1,0 +1,14 @@
+.LecturePageWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.LectureListWrapper {
+  background-color: yellow;
+  height: 800px;
+  width: 300px;
+}
+
+.LectureContentWrapper {
+  width: 'calc(100% - 300px';
+}
