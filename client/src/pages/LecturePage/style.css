@@ -1,0 +1,47 @@
+.LecturePageWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.LectureListWrapper {
+  background-color: yellow;
+  height: 800px;
+  width:300px;
+  max-width:300px;
+  min-width: 300px;
+  display: inline-block;
+}
+.LectureListWrapperHidden {
+  display: none;
+}
+
+.LectureContentWrapper {
+  width: 100%;
+}
+
+.LecturePageWrapper .ToggleIcon{
+  width: 40px;
+  padding: 8px;
+  padding-left: 13px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  z-index: 999;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 0 4px 4px 0;
+}
+.LecturePageWrapper .HideIcon{
+  width: 40px;
+  padding: 8px;
+  padding-left: 13px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  z-index: 999;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.15);
+  border-radius: 0 4px 4px 0;
+}

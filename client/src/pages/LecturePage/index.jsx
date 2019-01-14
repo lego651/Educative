@@ -12,23 +12,26 @@ class LecturePage extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      drawerClass: 'DrawerWrapper'
+      hideDrawer: false
     }
   }
   onClick = () => {
     this.setState({
-      drawerClass: this.state.drawerClass ? null : 'DrawerWrapper'
+      hideDrawer: this.state.hideDrawer ? false : true
     })
   }
   render() {
     return(
       <div className="LecturePageWrapper">
-        <div className="LectureListWrapper">
+        <div className={this.state.hideDrawer ? "HideIcon" : "ToggleIcon"}
+             onClick={this.onClick.bind(this)}>
+          <i className="fas fa-bars"></i>
+        </div>
+        <div className={this.state.hideDrawer ? "LectureListWrapperHidden" : "LectureListWrapper"}>
           <LectureList />
         </div>
         <div className="LectureContentWrapper">
           <LectureContent />
-          <i className="fas fa-bars"> </i>
         </div>
       </div>
     )

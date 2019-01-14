@@ -9,7 +9,7 @@ import './style.css'
 export default class LectureList extends React.Component {
   render() {
     return(
-      <div className="LectureListWrapper">
+      <div className="LectureListContainer">
         <ul className="list-group list-group-flush">
           <li className="list-group-item active">Cras justo odio</li>
           <li className="list-group-item">Dapibus ac facilisis in</li>
