@@ -9,6 +9,7 @@ import ProfilePage from '../pages/ProfilePage'
 import CollectionPage from '../pages/CollectionPage'
 import LecturePage from '../pages/LecturePage'
 import AllCoursePage from '../pages/AllCoursePage'
+import MarkdownPage from '../pages/MarkdownPage'
 import Test from '../pages/Test'
 import EnsureLoggedInContainer from '../containers/EnsureLoggedInContainer'
 
@@ -27,6 +28,7 @@ export const RouteMap = () => {
           <Route exact path="/collection" component={CollectionPage}/>
           <Route exact path="/lecture" component={LecturePage}/>
           <Route exact path="/allcourse" component={AllCoursePage}/>
+          <Route exact path="/markdown" component={MarkdownPage}/>
 
           <EnsureLoggedInContainer>
             <Route path="/test" component={Test}/>
